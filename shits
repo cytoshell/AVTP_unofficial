@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="12">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    </head>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown_content{
+            display: none;
+            position: absolute;
+            background-color: transparent;
+            min-width: 32px;
+            z-index: 1;
+        }
+
+        /*
+        The links in the dropdown would scroll down to empty space 
+        and fill with refs and shit. Clears and pulls images on click
+
+            pull from index?
+
+        */
+
+    </style>
+  </body>
+</html>
